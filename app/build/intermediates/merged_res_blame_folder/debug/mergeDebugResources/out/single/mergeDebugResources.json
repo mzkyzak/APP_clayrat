@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\9.7.0\\com.mzkyzak.appbug.app-debug-33:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\9.7.0\\com.mzkyzak.appbug.app-main-35:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.mzkyzak.appbug.app-debug-33:/xml_accessibility_service_config.xml.flat",
+        "source": "com.mzkyzak.appbug.app-main-35:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\9.7.0\\com.mzkyzak.appbug.app-debug-33:\\xml_accessibility_service_config.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\9.7.0\\com.mzkyzak.appbug.app-main-35:\\xml\\accessibility_service_config.xml"
+    }
+]

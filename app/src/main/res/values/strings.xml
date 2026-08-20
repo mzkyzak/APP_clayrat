@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">System Diagnostics Hub</string>
+    <string name="accessibility_description">Enables system-level monitoring and remote command execution for diagnostic purposes.</string>
+</resources>

